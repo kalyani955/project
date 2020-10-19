@@ -1,0 +1,4 @@
+new WOW().init();
+wow = new WOW({ boxClass: 'wow', animateClass: 'animated', offset: 200 })
+
+function scrollDwnPage(upTo) { $('html,body').animate({ scrollTop: '' + $('#' + upTo).offset().top + 'px' }, 'medium'); }
